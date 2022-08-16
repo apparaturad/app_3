@@ -1,6 +1,5 @@
 #! /bin/bash
 
-
 while true; do
 	rep=0;
 	read -n 1 -s B
@@ -20,51 +19,4 @@ while true; do
 	fi
 	echo "this $rep"
 done
-
-
-
-#rep=0
-#while true; do
-#read -n 1 -s B
-#	if [ $B == "3" ]
-#	then
-#		read -t 2 -s B
-#		#echo "$B"
-#		case "$B" in
-#			"3"   )  echo "один раз" ;;
-#			"33"   )  echo "два раза" ;;
-#			"333"   )  echo "три раза" ;;
-#
-#	#[Q-Z] ) команда3;; 
-#		esac
-#		echo "$B"
-#
-#	fi
-#done
-
-
-
-#rep=0
-#
-#while true; do
-#
-#read -n 1 -s B
-#
-#	if [ $B == "3" ]
-#	then
-#		rep=$(( $rep+1 ))
-#		#echo "$rep"
-#
-#		for (( value=1 ; value<30; value++ )) do
-#			read -n 1 -s B
-#			if [ $B == "3" ]
-#			then
-#				rep=$(( $rep+1 ))
-#				echo "$rep"
-#			fi
-#		done
-#	fi
-##	sleep 3
-#done
-
 
